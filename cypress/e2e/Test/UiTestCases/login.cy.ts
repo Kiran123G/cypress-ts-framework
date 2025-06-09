@@ -1,7 +1,7 @@
-import { LoginPage } from '../Pages/LoginPage';
-import { baseConfig } from '../../../config/baseConfig';
-import { stagingConfig } from '../../../config/staging';
-import { prodConfig } from '../../../config/prod';
+import { LoginPage } from '../../Pages/LoginPage';
+import { baseConfig } from '../../../../config/baseConfig';
+import { stagingConfig } from '../../../../config/staging';
+import { prodConfig } from '../../../../config/prod';
 
 const env = Cypress.env('ENV') || 'staging';
 const configs: any = { staging: stagingConfig, prod: prodConfig };

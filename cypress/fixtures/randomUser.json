@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Elias",
+        "last": "Vidal"
+      },
+      "location": {
+        "street": {
+          "number": 4258,
+          "name": "Place de L'Abbé-Basset"
+        },
+        "city": "Aix-En-Provence",
+        "state": "Aude",
+        "country": "France",
+        "postcode": 70942,
+        "coordinates": {
+          "latitude": "-18.5715",
+          "longitude": "-147.8499"
+        },
+        "timezone": {
+          "offset": "+4:30",
+          "description": "Kabul"
+        }
+      },
+      "email": "elias.vidal@example.com",
+      "login": {
+        "uuid": "3fa6301a-dc90-4ade-810b-ac6e7540fb7c",
+        "username": "angrypanda673",
+        "password": "astro",
+        "salt": "1YKdO14V",
+        "md5": "4c8c3e1a3072e3b9dc66734fca6feec4",
+        "sha1": "920b2733f3254b999f586cdaf8f06939be43f231",
+        "sha256": "0f206e9da75c8e2f409d3005c6c33417dd6db95ec461fee00d98a5c29ad52ec1"
+      },
+      "dob": {
+        "date": "1987-11-08T08:57:48.886Z",
+        "age": 37
+      },
+      "registered": {
+        "date": "2010-08-14T15:57:34.706Z",
+        "age": 14
+      },
+      "phone": "03-33-09-64-73",
+      "cell": "06-00-19-92-60",
+      "id": {
+        "name": "INSEE",
+        "value": "1871063560963 51"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/91.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg"
+      },
+      "nat": "FR"
+    }
+  ],
+  "info": {
+    "seed": "6e6ce32ee523a405",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
