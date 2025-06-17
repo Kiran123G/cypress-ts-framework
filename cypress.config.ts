@@ -6,5 +6,9 @@ export default defineConfig({
     specPattern: 'cypress/e2e/**/*.cy.{js,ts}',
     supportFile: 'cypress/support/e2e.ts',
     baseUrl: 'https://opensource-demo.orangehrmlive.com',
+    screenshotOnRunFailure: true,
+    video: true,
+    videosFolder: 'cypress/videos',
+    screenshotsFolder: 'cypress/screenshots',
   },
 });
