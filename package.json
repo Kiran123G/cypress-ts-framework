@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Robust Cypress + TypeScript framework for end-to-end testing",
   "scripts": {
-    "test": "cypress run",
+    "cypress:test": "cypress run",
     "test:headed": "cypress open",
     "report": "npx mochawesome-merge reports/mochawesome/*.json | npx mochawesome-report-generator --reportDir reports/html",
-    "test:report": "npm run test && npm run report"
+    "test:report": "npm run test && npm run report",
+    "allure:generate": "allure generate allure-results --clean && allure open allure-report"
   },
   "devDependencies": {
     "cypress": "14.4.1",

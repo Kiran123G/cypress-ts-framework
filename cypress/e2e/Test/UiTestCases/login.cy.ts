@@ -2,6 +2,9 @@ import { LoginPage } from '../../Pages/LoginPage';
 import { baseConfig } from '../../../../config/baseConfig';
 import { stagingConfig } from '../../../../config/staging';
 import { prodConfig } from '../../../../config/prod';
+import { validLoginData, invalidLoginData } from '../../data/loginData';
+
+
 
 const env = Cypress.env('ENV') || 'staging';
 const configs: any = { staging: stagingConfig, prod: prodConfig };
@@ -16,7 +19,7 @@ describe('OrangeHRM Login Test', () => {
   });
 
   it('should show error with invalid credentials', () => {
-    loginPage.login('invalidUser', 'invalidPass');
+    loginPage.login(invalidLoginData.Invalidusername, invalidLoginData.Invalidpassword);
     cy.contains('Invalid credentials').should('be.visible');
   });
 });
