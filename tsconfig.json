@@ -15,7 +15,7 @@
   "include": [
     "cypress/**/*.ts",
     "config/**/*.ts",
-    "utils/**/*.ts"
+    "utils/**/*.ts",
   ],
   "exclude": [
     "node_modules",
